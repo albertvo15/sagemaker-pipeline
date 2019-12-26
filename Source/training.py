@@ -75,7 +75,8 @@ training_params = \
     "ResourceConfig": {
         "InstanceCount": 1,
 #        "InstanceType": "ml.p2.xlarge",
-        "InstanceType": "m1.t2.large",
+#        "InstanceType": "m1.t2.large",
+        "InstanceType": "m1.m5.large",
         "VolumeSizeInGB": 50
     },
     "TrainingJobName": job_name,
